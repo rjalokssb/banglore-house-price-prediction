@@ -1,0 +1,12 @@
+<html>
+    <body>
+        <form action='/predict' method="POST">
+            Location: <input type="text" " name='location'><br>
+            Total SQFT: <input type='text' name='total_sqft'><br>
+            Bath: <input type='text' name='bath'><br>
+            BHK: <input type='text' name='bhk'><br>
+            Class: {{result}} <br>
+            <input type='submit' value='Predict'>
+        </form>
+    </body>
+</html>
